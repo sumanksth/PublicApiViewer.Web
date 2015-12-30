@@ -7,7 +7,7 @@
         $scope.error = "som thing wong - wee too lou";
     };
     $scope.searchGit = function () {
-                        $http.get("https://api1.github.com/users/angular")
+                        $http.get("https://api.github.com/users/angular")
                          .then(OnSuccess, OnError)
     };
     
